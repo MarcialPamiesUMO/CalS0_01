@@ -45,8 +45,8 @@ public class Punto {
         return y;
     }
 
-	/** Devuelve un nuevo objeto Posicion que representa el valor de la posici髇
-	 *  adyacente a la instancia actual en la direcci髇 pasada como par醡etro.
+	/** Devuelve un nuevo objeto Posicion que representa el valor de la posici贸n
+	 *  adyacente a la instancia actual en la direcci贸n pasada como par谩metro.
 	 */
 	public Punto Adyacente(Direccion direccion) {
 
@@ -65,8 +65,8 @@ public class Punto {
 	}
 
 	/**
-	 * Informa si la posici髇 pasada como par醡etro es adyacente a la instancia actual
-	 * en la direcci髇 indicada.
+	 * Informa si la posici贸n pasada como par谩metro es adyacente a la instancia actual
+	 * en la direcci贸n indicada.
 	 * 
 	 * @return true si es adyacente y false en caso contrario.
 	 */
@@ -76,8 +76,8 @@ public class Punto {
 	}
 
 	/**
-	 * Devuelve la situaci髇 relativa de la instancia actual respecto a la posici髇 que se pasa como par醡etro.
-	 * En el caso de no ser posiciones adyacentes el valor de retorno es null. 
+	 * Devuelve la situaci贸n relativa de la instancia actual respecto a la posici贸n que se pasa como par谩metro.
+	 * En el caso de no ser posiciones adyacentes el valor de retorno es nulo. 
 	 */
 	public Direccion situacion_relativa(Punto otra){
 	    int difX = Math.abs(x - otra.x);
