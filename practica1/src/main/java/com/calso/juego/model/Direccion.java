@@ -2,6 +2,7 @@ package com.calso.juego.model;
 
 import java.util.*;
 
+/* Clase que implementa una dirección */
 public enum Direccion {
 	ARRIBA, ABAJO, DERECHA, IZQUIERDA;
 	
