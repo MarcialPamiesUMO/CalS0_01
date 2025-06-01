@@ -132,7 +132,7 @@ public class Punto {
 		return  (x == other.x && y == other.y);
 	}
 
-	@Override
+/*	@Override
 	public Punto clone(){
 		Punto copia;
 
@@ -143,6 +143,6 @@ public class Punto {
 		catch(CloneNotSupportedException e){ }
 
 		return null;
-	}
+	}*/
 
 }
