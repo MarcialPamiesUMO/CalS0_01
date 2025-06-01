@@ -5,7 +5,7 @@ import java.util.*;
 public enum Direccion {
 	ARRIBA, ABAJO, DERECHA, IZQUIERDA;
 
-	private Random rmd = new Random();
+	private Random rnd = new Random();
 	
 	public Direccion opuesta(Direccion direccion) {
 		switch (direccion) {
